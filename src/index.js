@@ -13,7 +13,7 @@ el2.classList.add("mystyle");
 el2.innerHTML = "css test!!";
 
 let pretty = ["아이유", "한지민", "아이린"];
-let spread = ["진기주", ...pretty, "전지현"];
+let spread = ["진기주", ...pretty, "전지현", "zzz"];
 
 var el3 = document.createElement("div");
 el3.innerHTML = spread;

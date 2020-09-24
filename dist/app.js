@@ -107,7 +107,7 @@ var el2 = document.createElement("p");
 el2.classList.add("mystyle");
 el2.innerHTML = "css test!!";
 var pretty = ["아이유", "한지민", "아이린"];
-var spread = ["진기주"].concat(pretty, ["전지현"]);
+var spread = ["진기주"].concat(pretty, ["전지현", "zzz"]);
 var el3 = document.createElement("div");
 el3.innerHTML = spread;
 document.body.appendChild(el2);
